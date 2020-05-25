@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-hanged-game/static/css/main.9930af0f.chunk.css",
+    "main.js": "/react-hanged-game/static/js/main.abc681e6.chunk.js",
+    "main.js.map": "/react-hanged-game/static/js/main.abc681e6.chunk.js.map",
+    "runtime-main.js": "/react-hanged-game/static/js/runtime-main.1becf17d.js",
+    "runtime-main.js.map": "/react-hanged-game/static/js/runtime-main.1becf17d.js.map",
+    "static/js/2.d88ba7ac.chunk.js": "/react-hanged-game/static/js/2.d88ba7ac.chunk.js",
+    "static/js/2.d88ba7ac.chunk.js.map": "/react-hanged-game/static/js/2.d88ba7ac.chunk.js.map",
+    "index.html": "/react-hanged-game/index.html",
+    "precache-manifest.9be0ce759c828716ce59d5a83128d949.js": "/react-hanged-game/precache-manifest.9be0ce759c828716ce59d5a83128d949.js",
+    "service-worker.js": "/react-hanged-game/service-worker.js",
+    "static/css/main.9930af0f.chunk.css.map": "/react-hanged-game/static/css/main.9930af0f.chunk.css.map",
+    "static/js/2.d88ba7ac.chunk.js.LICENSE.txt": "/react-hanged-game/static/js/2.d88ba7ac.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1becf17d.js",
+    "static/js/2.d88ba7ac.chunk.js",
+    "static/css/main.9930af0f.chunk.css",
+    "static/js/main.abc681e6.chunk.js"
+  ]
+}
