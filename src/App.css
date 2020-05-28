@@ -37,22 +37,24 @@
   }
 }
 
+.result {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  margin: auto;
+}
+
+.result span {
+  font-size: 100px;
+}
+
+.result p {
+  color: #61dafb;
+  text-align: center;
+  width: 500px;
+}
+
 #winner p {
   color: hotpink;
-}
-
-#looser span {
-  font-size: 100px;
-}
-
-#winner span {
-  font-size: 100px;
-  margin-left: 300px;
-
-}
-
-#looser p {
-  padding-left: 5px;
-  margin-left: 10px;
-  color: #61dafb;
 }

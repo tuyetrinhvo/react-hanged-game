@@ -6,16 +6,25 @@ import Word from "./Word";
 const WORDS = [
 			"JAVASCRIPT",
 			"REACT",
+			"PARIS",
 			"ANGULAR",
+			"SASHIMI",
+			"SAIGON",
 			"JQUERY",
 			"SYMFONY",
+			"PYTHON",
 			"APPLE",
+			"SAKURA",
+			"BORDEAUX",
 			"REDUX",
+			"IONIC",
 			"NATIVE",
+			"VIETNAM",
 			"GOOGLE",
 			"ANDROID",
+			"FACEBOOK"
 		],
-		INIT_GAME_TIME = 7200;
+		INIT_GAME_TIME = 3000;
 
 
 class App extends Component {
@@ -64,7 +73,7 @@ class App extends Component {
 	endGame(){
 		const { guesses, guesseWord, matchedLetters } = this.state;
 		if (guesses === 8) {
-			this.setState({message: "PENDU !"});
+			this.setState({message: `PENDU ! REJOUEZ !`});
 			setTimeout(() => this.initGame(), INIT_GAME_TIME);		
 		}
 		if (matchedLetters === guesseWord.length){
@@ -94,8 +103,8 @@ class App extends Component {
 			<div className='App-header'>
 				<h1>Jeu du pendu</h1>
 				<p>Raté { guesses } fois</p>
-				{ message !== '' &&  <div id="looser"><p>{ message }</p>
-				<span role="img" aria-label="pile of poop">💩</span></div>}
+				{ message !== '' &&  <div className="result"><p>{ message }</p>
+				<p><span role="img" aria-label="skull">💀</span></p></div>}
 				{ guesseWord !== null && (
 					<Word
 						guesseWord={guesseWord}
@@ -103,7 +112,7 @@ class App extends Component {
 					/>
 				)}
 
-				{ won && <div id="winner"><p><span role="img" aria-label="trophy">🏆</span></p><p>BRAVO ! 
+				{ won && <div className="result" id="winner"><p><span role="img" aria-label="trophy">🏆</span></p><p>BRAVO ! 
 					Pressez ENTREE ou cliquez sur une lettre pour une nouvelle partie.</p>
 				
 				</div>}
