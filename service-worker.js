@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/react-hanged-game/precache-manifest.9be0ce759c828716ce59d5a83128d949.js"
+  "/react-hanged-game/precache-manifest.13cde8fcd5127d6d17f9690e26f70d19.js"
 );
 
 self.addEventListener('message', (event) => {
