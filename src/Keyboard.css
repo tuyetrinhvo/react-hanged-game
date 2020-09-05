@@ -9,9 +9,10 @@
   border-radius: 10px;
   width: 45px;
   height: 46px;
+  background-color: white;
 }
 
 #keyboard button.used {
-  background-color: darksalmon;
+  opacity: 0,5;
   color: brown;
 }
