@@ -41,7 +41,7 @@
   margin: auto;
   display: flex;
   flex-wrap: wrap;
-  width: 500px;
+  width: 400px;
   margin: auto;
 }
 
@@ -52,7 +52,7 @@
 .result p {
   color: #61dafb;
   text-align: center;
-  width: 500px;
+  width: 400px;
 }
 
 #winner p {

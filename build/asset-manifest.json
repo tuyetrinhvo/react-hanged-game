@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/react-hanged-game/static/css/main.1416eb4c.chunk.css",
-    "main.js": "/react-hanged-game/static/js/main.241808a7.chunk.js",
-    "main.js.map": "/react-hanged-game/static/js/main.241808a7.chunk.js.map",
-    "runtime-main.js": "/react-hanged-game/static/js/runtime-main.1becf17d.js",
-    "runtime-main.js.map": "/react-hanged-game/static/js/runtime-main.1becf17d.js.map",
-    "static/js/2.d88ba7ac.chunk.js": "/react-hanged-game/static/js/2.d88ba7ac.chunk.js",
-    "static/js/2.d88ba7ac.chunk.js.map": "/react-hanged-game/static/js/2.d88ba7ac.chunk.js.map",
+    "main.css": "/react-hanged-game/static/css/main.4f30021a.chunk.css",
+    "main.js": "/react-hanged-game/static/js/main.c284b46d.chunk.js",
+    "main.js.map": "/react-hanged-game/static/js/main.c284b46d.chunk.js.map",
+    "runtime-main.js": "/react-hanged-game/static/js/runtime-main.e2bbb5b7.js",
+    "runtime-main.js.map": "/react-hanged-game/static/js/runtime-main.e2bbb5b7.js.map",
+    "static/js/2.7dce7141.chunk.js": "/react-hanged-game/static/js/2.7dce7141.chunk.js",
+    "static/js/2.7dce7141.chunk.js.map": "/react-hanged-game/static/js/2.7dce7141.chunk.js.map",
     "index.html": "/react-hanged-game/index.html",
-    "precache-manifest.13cde8fcd5127d6d17f9690e26f70d19.js": "/react-hanged-game/precache-manifest.13cde8fcd5127d6d17f9690e26f70d19.js",
+    "precache-manifest.6ce528087732de5b41b0c38806654b70.js": "/react-hanged-game/precache-manifest.6ce528087732de5b41b0c38806654b70.js",
     "service-worker.js": "/react-hanged-game/service-worker.js",
-    "static/css/main.1416eb4c.chunk.css.map": "/react-hanged-game/static/css/main.1416eb4c.chunk.css.map",
-    "static/js/2.d88ba7ac.chunk.js.LICENSE.txt": "/react-hanged-game/static/js/2.d88ba7ac.chunk.js.LICENSE.txt"
+    "static/css/main.4f30021a.chunk.css.map": "/react-hanged-game/static/css/main.4f30021a.chunk.css.map",
+    "static/js/2.7dce7141.chunk.js.LICENSE.txt": "/react-hanged-game/static/js/2.7dce7141.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.1becf17d.js",
-    "static/js/2.d88ba7ac.chunk.js",
-    "static/css/main.1416eb4c.chunk.css",
-    "static/js/main.241808a7.chunk.js"
+    "static/js/runtime-main.e2bbb5b7.js",
+    "static/js/2.7dce7141.chunk.js",
+    "static/css/main.4f30021a.chunk.css",
+    "static/js/main.c284b46d.chunk.js"
   ]
 }

@@ -1,5 +1,5 @@
 #keyboard {
-  width:500px;
+  width:400px;
 }
 #keyboard button {
   font-weight: bold;
@@ -12,5 +12,6 @@
 }
 
 #keyboard button.used {
-  opacity: 0.5;
+  background-color: darksalmon;
+  color: brown;
 }
