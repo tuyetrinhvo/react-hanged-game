@@ -13,6 +13,6 @@
 }
 
 #keyboard button.used {
-  opacity: 0,5;
+  background-color: #282c34;
   color: brown;
 }
