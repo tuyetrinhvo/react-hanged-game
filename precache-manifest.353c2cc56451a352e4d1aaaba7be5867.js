@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "80dd3053181ecd0ce0d442b6df6a8d0c",
+    "revision": "985395f922262d2c77e434bdbec7e609",
     "url": "/react-hanged-game/index.html"
   },
   {
-    "revision": "0d6c61384f3b1194fe09",
-    "url": "/react-hanged-game/static/css/main.4f30021a.chunk.css"
+    "revision": "721666cc2961280d0fad",
+    "url": "/react-hanged-game/static/css/main.281769d2.chunk.css"
   },
   {
     "revision": "e285be3a4907ee252a8b",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-hanged-game/static/js/2.7dce7141.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0d6c61384f3b1194fe09",
+    "revision": "721666cc2961280d0fad",
     "url": "/react-hanged-game/static/js/main.c284b46d.chunk.js"
   },
   {
