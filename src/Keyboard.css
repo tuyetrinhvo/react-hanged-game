@@ -1,6 +1,14 @@
 #keyboard {
-  width:400px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-top: 40px;
+  user-select: none;
 }
+
 #keyboard button {
   font-weight: bold;
   font-size: large;
@@ -15,4 +23,26 @@
 #keyboard button.used {
   background-color: #282c34;
   color: brown;
+}
+
+@media (max-width: 414px) {
+  #keyboard {
+    width: 400px;
+  margin-left: 15px;
+    
+}
+}
+
+@media (max-width: 375px) {
+  #keyboard {
+  width: 350px;
+    margin-left: 22px;
+}
+}
+
+@media (max-width: 320px) {
+  #keyboard {
+  width: 264px;
+    margin-left: 50px
+}
 }

@@ -41,20 +41,72 @@
   margin: auto;
   display: flex;
   flex-wrap: wrap;
-  width: 400px;
+  width: 500px;
   margin: auto;
 }
 
 .result span {
   font-size: 100px;
+  margin-left: 200px;
 }
 
 .result p {
   color: #61dafb;
   text-align: center;
-  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 #winner p {
   color: hotpink;
+}
+
+@media (max-width: 414px) {
+  .result p {
+  width: 400px;
+
+  }
+.result {
+  width: 400px;
+
+  }
+.result span {
+  margin-left: 160px;
+  font-size: 80px;
+}
+}
+
+@media (max-width: 375px) {
+.result p {
+  width: 330px;
+
+  }
+.result {
+  width: 350px;
+
+  }
+
+  .result span {
+  margin-left: 130px;
+}
+}
+
+@media (max-width: 320px) {
+  .result p {
+  width: 264px;
+
+  }
+.result {
+  width: 264px;
+
+  }
+
+  .result span {
+  margin-left: 95px;
+}
 }
