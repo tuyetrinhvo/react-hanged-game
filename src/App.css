@@ -42,7 +42,6 @@
 	display: flex;
 	flex-wrap: wrap;
 	width: 500px;
-	margin: auto;
 }
 
 .result span {
@@ -51,7 +50,7 @@
 }
 
 .result p {
-	color: #61dafb;
+	color: hotpink;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
@@ -62,8 +61,29 @@
 	margin-top: 0;
 }
 
-#winner p {
-	color: hotpink;
+p#loser {
+	color: #61dafb;
+	width: 269px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media (max-width: 1024px) {
+	p#loser {
+		width: 230px;
+	}
+}
+
+@media (max-width: 823px) {
+	p#loser {
+		width: 170px;
+	}
+}
+
+@media (max-width: 568px) {
+	p#loser {
+		width: 155px;
+	}
 }
 
 @media (max-width: 414px) {
@@ -77,6 +97,9 @@
 		margin-left: 160px;
 		font-size: 80px;
 	}
+	p#loser {
+		width: 166px;
+	}
 }
 
 @media (max-width: 375px) {
@@ -86,7 +109,6 @@
 	.result {
 		width: 350px;
 	}
-
 	.result span {
 		margin-left: 130px;
 	}
@@ -99,8 +121,10 @@
 	.result {
 		width: 264px;
 	}
-
 	.result span {
 		margin-left: 95px;
+	}
+	p#loser {
+		width: 155px;
 	}
 }
